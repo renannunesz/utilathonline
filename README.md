@@ -1,0 +1,1 @@
+#Utilitarios para tratar informações e economizar tempo de trabalho
