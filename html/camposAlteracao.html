@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Utilitários - Athenas</title>
+
+</head>
+
+
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="card card-login mx-auto mt-5">
+            <div class="card-header"> Filtros para alterações: </div>
+            <div class="card-body">
+                <form action="../php/tarefasAlteracao.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" name="codExeTarefa" id="inputExecutor" class="form-control"
+                                placeholder="Codigo Executor:" autofocus="autofocus" required>
+                            <label for="inputExecutor"> - Executor.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" name="codProcesso" id="inputCodProcesso" class="form-control"
+                                placeholder="Codigo Processo" required>
+                            <label for="inputCodProcesso"> - Código.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" name="descTarefa" id="inputDescricaoTarefa" class="form-control"
+                                placeholder="Descricão Tarefa" required>
+                            <label for="inputDescricaoTarefa"> - Descrição.</label>
+                        </div>
+                    </div>
+                    <input type="submit" id="inputSalvar" value="Salvar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <label>
+            - Tarefas Alteradas:
+        </label>
+    </div>
+
+</body>
+
+</html>
