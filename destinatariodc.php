@@ -28,6 +28,12 @@
             $codUser = "Indefinido";
         }
 
+        if (isset($_POST['adddocsdc'])) {
+            $marcacaoUser = "Marcação OK";
+        } else {
+            $marcacaoUser = "Desmarcado";
+        }
+
         //$codEmpresa = 9999;
         //$codUser = 8;
         $codAdmin = 1;

@@ -53,6 +53,9 @@
                             ?>
                         </select>
                         <label for="floatingSelect"> Usuário </label>
+                        <p>
+                            <input type="checkbox" name="adddocsdc" value="on">Adicionar como "Destinatário" aos documentos já enviados para o Document Center.
+                        </p>
                         <input class="btn btn-secondary" type='submit' name='submit' value='Salvar Novo Usuário'>
                     </div>
                     
